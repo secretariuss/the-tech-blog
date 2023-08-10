@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccdad1;
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #201110;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+    color: #201110;
+    line-height: 1.25;
+}
+
+.link-color {
+    color: #788585;
+    padding: 10px;
+    margin: 10px
+}
+
+main {
+    margin: 20px auto;
+    width: 94%;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: .3rem;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #a1a0a1;
+    transform: translate(-1px, -1px);
+}
+
+.btn:hover {
+    color: #ccdad1;
+    background-color: #788585;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px #201110;
+}
+
+.btn-inline {
+    display: inline;
+}
+
+.btn-back {
+    border-radius: .3rem;
+    color: #ccdad1;
+    border: none;
+    outline: none;
+    background-color: #a1a0a1;
+    box-shadow: 3px 3px #dce9d5;;
+    transform: translate(-1px, -1px);
+    display: inline-block;
+    width: auto;
+    margin-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.btn-back:hover {
+    color: #ccdad1;
+    background-color: #788585;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px #201110;
+}
+
+.header {
+    padding: 3% 4%;
+    background-color: #201110;
+    color: #ccdad1;
+}
+
+.header p {
+    max-width: 75%;
+}
+
+.app-title {
+    font-size: 3rem;
+    background-color: #ccdad1;
+    color: #201110;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: .3rem;
+    box-shadow: 6px 5px #a1a0a1;
+}
+
+.nav-link {
+    color: #a1a0a1;
+    text-decoration:none;
+    margin-right: 5rem;
+}
+
+.login-link {
+    color: #201110;
+}
+
+.nav {
+    padding: 10px;
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 2px solid #201110;
+    border-radius: .3rem;
+}
+
+.card-header {
+    color: #ccdad1;
+    background-color: #201110;
+    padding: 1%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+h4 {
+    font-weight: 700;
+    margin: 0;
+    color: #a1a0a1;
+    line-height: 1.25;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+}
