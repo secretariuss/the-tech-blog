@@ -1,14 +1,11 @@
 const router = require('express').Router();
 
-// import recommendations from recc.js
 const apiRoutes = require('./api');
 const homeRoutes = require('./home-routes.js');
-const loginRoutes = require("./login-routes");
-const signupRoutes = require("./signup-routes");
+const dashboardRoutes = require('./dashboard-routes.js');
 
-router.use('/', homeRoutes);
 router.use('/api', apiRoutes);
-router.use("/signup", signupRoutes);
-router.use("/login", loginRoutes);
+router.use('/', homeRoutes);
+router.use('/dashboard', dashboardRoutes);
 
 module.exports = router;

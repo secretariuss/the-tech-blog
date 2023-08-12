@@ -1,4 +1,7 @@
- <div class="home">
-        
- </div>
- 
+<article class="post">
+
+    {{#each posts as |post| }}
+        {{> post-info post}}
+    {{/each}}
+
+</article>

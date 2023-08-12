@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS inventory_db;
-Create DATABASE inventory_db;
+DROP DATABASE IF EXISTS tech_db;
+Create DATABASE tech_db;
