@@ -1,4 +1,4 @@
-# Tech Blog
+# The Tech Blog
 
 ## User Story
 AS A developer who writes about tech
@@ -6,13 +6,10 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Description
-Tech Blog
+The Tech Blog is a site where user can publish their blog posts, comments. User can to view posts and comments. The site include authentication part as well. 
 
 ## Github reference
 https://github.com/secretariuss/the-tech-blog
-
-## Video reference
-https://drive.google.com/
 
 ## Screen shots
 
